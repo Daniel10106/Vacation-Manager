@@ -1,0 +1,24 @@
+﻿@model VacationManager.Models.EmployeeInfoViewModel
+
+@{
+    ViewData["Title"] = "Info";
+}
+
+<h1>@Model.FirstName @Model.LastName</h1>
+
+<ul>
+    <li>
+        ID @Model.PlayerId
+    </li>
+    <li>
+        Role @Model.Role
+    </li>
+    <li>
+        Team @Model.Team
+    </li>
+    <li>
+        Project @Model.Project
+    </li>
+
+</ul>
+

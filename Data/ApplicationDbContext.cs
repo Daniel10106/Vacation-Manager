@@ -18,6 +18,7 @@ namespace VacationManager.Data
         {
 
         }
+        
         protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
         {
             optionBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ApplicationDbContext;");

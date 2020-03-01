@@ -1,16 +1,17 @@
-﻿using Microsoft.AspNetCore.Identity;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace VacationManager.Data
+namespace VacationManager.Models
 {
-    public class Player
+    public class EmployeeInfoViewModel
     {
         public int PlayerId { get; set; }
-        public virtual IdentityUser User { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string Role { get; set; }
+        public string Team { get; set; }
+        public string Project { get; set; }
     }
 }
